@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-17T19:07:41Z" name="Default suite" finished-at="2020-12-17T19:07:57Z" duration-ms="16556">
+    <groups>
+    </groups>
+    <test started-at="2020-12-17T19:07:41Z" name="Default test" finished-at="2020-12-17T19:07:57Z" duration-ms="16556">
+      <class name="org.rohini.test.LoginTest">
+        <test-method is-config="true" signature="setUp_lauchBrowser()[pri:0, instance:org.rohini.test.LoginTest@14a50707]" started-at="2020-12-17T11:07:41Z" name="setUp_lauchBrowser" finished-at="2020-12-17T11:07:49Z" duration-ms="8548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp_lauchBrowser -->
+        <test-method is-config="true" signature="init()[pri:0, instance:org.rohini.test.LoginTest@14a50707]" started-at="2020-12-17T11:07:49Z" name="init" finished-at="2020-12-17T11:07:49Z" depends-on-methods="org.rohini.page.BasePage.setUp_lauchBrowser" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginWithGivenCredentialsTest()[pri:0, instance:org.rohini.test.LoginTest@14a50707]" started-at="2020-12-17T11:07:49Z" name="loginWithGivenCredentialsTest" finished-at="2020-12-17T11:07:57Z" duration-ms="7957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithGivenCredentialsTest -->
+        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:org.rohini.test.LoginTest@14a50707]" started-at="2020-12-17T11:07:57Z" name="closeBrowsers" finished-at="2020-12-17T11:07:59Z" duration-ms="1156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+      </class> <!-- org.rohini.test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
