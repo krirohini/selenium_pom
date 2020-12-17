@@ -16,7 +16,6 @@ public class CrmDashBoardPage {
 	WebDriver driver;
 	SeleniumUtils seleniumUtils;
 	
-	//@FindBy(how = How.CLASS_NAME, using="nav-bar-username122") WebElement userName;
 	@FindBy(how = How.XPATH, using="//div[@class='nav-bar-account-details']//span[1]") WebElement userName;
 
 	public CrmDashBoardPage (WebDriver driver) {
